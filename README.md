@@ -39,12 +39,15 @@ UseBkWin
 
 四年里，自己忙着工作，忙着赚钱，忙着生活。不知群里的朋友们，你们过的好吗?
 
+
+相关依赖
 --------
 
 * [wtl](http://wtl.sourceforge.net)
 * [bkwin](http://code.ijinshan.com/index.html)
 * [tinyxml](http://www.grinninglizard.com/tinyxml2/index.html)
 * [vs studio 2008](https://www.microsoft.com/en-us/download/details.aspx?id=7873)
+
 
 毕业设计文档
 ------------

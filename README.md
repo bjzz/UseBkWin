@@ -41,10 +41,10 @@ UseBkWin
 
 --------
 
-* wtl
-* bkwin
-* tinyxml
-* vs studio 2008及以上版本
+* [wtl](http://wtl.sourceforge.net)
+* [bkwin](http://code.ijinshan.com/index.html)
+* [tinyxml](http://www.grinninglizard.com/tinyxml2/index.html)
+* [vs studio 2008](https://www.microsoft.com/en-us/download/details.aspx?id=7873)
 
 毕业设计文档
 ------------

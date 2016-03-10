@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5139c505-27dc-45b3-81e8-36f07969b4ec}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1d8b1edb-8257-47b1-b3ad-5f97aba17174}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\ico">
+      <UniqueIdentifier>{872c16b5-eb45-484f-bf8d-a7dfde15c732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\png">
+      <UniqueIdentifier>{4394cd26-7942-4253-8d0f-9262b05eb2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\bmp">
+      <UniqueIdentifier>{81f0dc6e-be2d-4714-8251-ca2141bc5d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\xml_default">
+      <UniqueIdentifier>{891a4526-84ca-4439-91b3-86e90596a37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\png\tools">
+      <UniqueIdentifier>{8b30ce18-d146-48a6-ab06-0a39ded44440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\xml_file">
+      <UniqueIdentifier>{94115d81-3dfe-4b79-b4c2-97831b3844a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{cd88ed45-cb83-4d04-928b-5fcb88e82deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d62e2a84-c145-4c95-9bf7-1e8eb4c11b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{1762fc85-183e-40a2-b5c1-2da45ea6bbab}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="include\0.tinyxml">
+      <UniqueIdentifier>{2ad66430-cdb0-4b7b-bdcc-2f915a61164f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\0.wtl">
+      <UniqueIdentifier>{ae46d0d6-890e-418d-b0f5-a30f627f119e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\1.bkwin">
+      <UniqueIdentifier>{73751020-1481-4d15-82f2-61c9946d3696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\1.wthelper">
+      <UniqueIdentifier>{4ab9ceb7-02a3-4929-a593-ec2fa61dbde4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\2.help">
+      <UniqueIdentifier>{17989ee3-0dc8-4e3a-a55d-f37456fe2878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UseBkWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="public\tinyxml\tinystr.cpp">
+      <Filter>include\0.tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="public\tinyxml\tinyxml.cpp">
+      <Filter>include\0.tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="public\tinyxml\tinyxmlerror.cpp">
+      <Filter>include\0.tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="public\tinyxml\tinyxmlparser.cpp">
+      <Filter>include\0.tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkDevice.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="public\help\getregistry.cpp">
+      <Filter>include\2.help</Filter>
+    </ClCompile>
+    <ClCompile Include="public\help\IniEditor.cpp">
+      <Filter>include\2.help</Filter>
+    </ClCompile>
+    <ClCompile Include="public\help\kscfilepath.cpp">
+      <Filter>include\2.help</Filter>
+    </ClCompile>
+    <ClCompile Include="public\help\kscsys.cpp">
+      <Filter>include\2.help</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpFunction.cpp">
+      <Filter>include\2.help</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkatldefine.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkcolor.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkdlgview.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkimage.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bklistbox.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bklistview.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkobject.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkskin.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bktheme.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkwnd.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkwndcmnctrl.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkwnddlg.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkwnddlgfile.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkwndnotify.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkwndpanel.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkwndrichtxt.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkwndstyle.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\bkwndtabctrl.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bkwin\listboxbase.h">
+      <Filter>include\1.bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tinyxml\tinystr.h">
+      <Filter>include\0.tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tinyxml\tinyxml.h">
+      <Filter>include\0.tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtlhelper\wh3statecheckimglst.h">
+      <Filter>include\1.wthelper</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtlhelper\whwindow.h">
+      <Filter>include\1.wthelper</Filter>
+    </ClInclude>
+    <ClInclude Include="bkwinres.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCardListView.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkDevice.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlapp.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlcrack.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlctrls.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlctrlw.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlctrlx.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlddx.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atldlgs.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlfind.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlframe.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlgdi.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlmisc.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlprint.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlres.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlresce.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlscrl.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlsplit.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atltheme.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atluser.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlwince.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="public\wtl\atlwinx.h">
+      <Filter>include\0.wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomDrawButton.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="public\help\getregistry.h">
+      <Filter>include\2.help</Filter>
+    </ClInclude>
+    <ClInclude Include="public\help\IniEditor.h">
+      <Filter>include\2.help</Filter>
+    </ClInclude>
+    <ClInclude Include="public\help\kscfilepath.h">
+      <Filter>include\2.help</Filter>
+    </ClInclude>
+    <ClInclude Include="public\help\ksclock.h">
+      <Filter>include\2.help</Filter>
+    </ClInclude>
+    <ClInclude Include="public\help\kscsys.h">
+      <Filter>include\2.help</Filter>
+    </ClInclude>
+    <ClInclude Include="public\help\base.h">
+      <Filter>include\2.help</Filter>
+    </ClInclude>
+    <ClInclude Include="public\help\wow64helper.h">
+      <Filter>include\2.help</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpFuncion.h">
+      <Filter>include\2.help</Filter>
+    </ClInclude>
+    <ClInclude Include="OwnDrawNetFlowButton.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UseBkWin.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="public\bkres\bkres.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bkwinres.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico\beikesafe.ico">
+      <Filter>Resource Files\ico</Filter>
+    </None>
+    <None Include="res\bmp\tab_main.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </None>
+    <None Include="res\bmp\msgbox_header.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </None>
+    <None Include="res\bmp\msgbox_footer.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </None>
+    <None Include="res\bmp\msgbox_body.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </None>
+    <None Include="res\bmp\main_bg_body.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </None>
+    <None Include="res\xml\dlg_main.xml">
+      <Filter>Resource Files\xml_file</Filter>
+    </None>
+    <None Include="res\xml\dlg_set.xml">
+      <Filter>Resource Files\xml_file</Filter>
+    </None>
+    <None Include="res\png\logo_module.png">
+      <Filter>Resource Files\png</Filter>
+    </None>
+    <None Include="res\png\btn_sys_close.png">
+      <Filter>Resource Files\png</Filter>
+    </None>
+    <None Include="res\xml\def_skin.xml">
+      <Filter>Resource Files\xml_default</Filter>
+    </None>
+    <None Include="res\xml\def_string.xml">
+      <Filter>Resource Files\xml_default</Filter>
+    </None>
+    <None Include="res\xml\def_style.xml">
+      <Filter>Resource Files\xml_default</Filter>
+    </None>
+    <None Include="res\xml\dlg_main_body.xml">
+      <Filter>Resource Files\xml_file</Filter>
+    </None>
+    <None Include="res\xml\dlg_main_footer.xml">
+      <Filter>Resource Files\xml_file</Filter>
+    </None>
+    <None Include="res\xml\dlg_main_header.xml">
+      <Filter>Resource Files\xml_file</Filter>
+    </None>
+    <None Include="res\png\logo_title.png">
+      <Filter>Resource Files\png</Filter>
+    </None>
+    <None Include="res\png\tools\yehoo.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\wordpress.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\twitter.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\stumbleupon.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\skype.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\rss.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\linkedin.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\google.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\flickr.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\facebook.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\digg.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\png\tools\delicious.png">
+      <Filter>Resource Files\png\tools</Filter>
+    </None>
+    <None Include="res\xml\list_process.xml">
+      <Filter>Resource Files\xml_file</Filter>
+    </None>
+    <None Include="res\xml\def_string_en.xml">
+      <Filter>Resource Files\xml_default</Filter>
+    </None>
+    <None Include="res\xml\dlg_msgbox.xml">
+      <Filter>Resource Files\xml_file</Filter>
+    </None>
+    <None Include="res\xml\dlg_msgbox2.xml">
+      <Filter>Resource Files\xml_file</Filter>
+    </None>
+    <None Include="res\xml\def_skin2.xml">
+      <Filter>Resource Files\xml_default</Filter>
+    </None>
+    <None Include="res\xml\dlg_main_body_en.xml">
+      <Filter>Resource Files\xml_file</Filter>
+    </None>
+    <None Include="res\xml\dlg_main_en.xml">
+      <Filter>Resource Files\xml_file</Filter>
+    </None>
+  </ItemGroup>
+</Project>

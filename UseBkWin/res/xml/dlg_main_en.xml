@@ -1,0 +1,16 @@
+﻿<layer title="Net Traffic" width="500" height="420" appwin="1" resize="1">
+  <!-- 窗口头部 dlg_main_header.xml -->
+  <header class="mainhead" width="full" height="32" >
+    <dlgfile pos="0,0,-0,-0" src="105" />
+  </header>
+
+  <!-- 窗口内容 dlg_main_body.xml -->
+  <body class="mainbody" width="full" height="full">
+    <dlgfile pos="0,0,-0,-0" src="112" />
+  </body>
+
+  <!-- 窗口页脚 dlg_main_footer.xml -->
+  <footer class="mainfoot" width="full" height="3">
+    <dlgfile pos="0,0,-0,-0" src="106" />
+  </footer>
+</layer>

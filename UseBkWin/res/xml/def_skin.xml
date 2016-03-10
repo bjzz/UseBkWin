@@ -1,0 +1,35 @@
+<skins>
+	<!-- header body footer 的图片 -->
+  <imghorzex name="mainhead" src="70" left="3" />
+	<imgframe  name="mainbody" src="2" top="88" left="7" mode="mask" crbg="FBFCFD" />
+  <imgframe  name="mainfoot" src="72" left="3" top="3" part="bottom" />
+
+	<imgframe  name="intr_text" src="75" top="139" left="182" mode="mask" crbg="99CCCC" />
+	
+	<!-- 486 * 298 -->
+	<imgframe  name="tools_bg" src="76" top="198" left="242" mode="mask" crbg="99CCCC" />
+
+	<!-- 常用工具的图标设置 -->
+	<png name="tools_notepad" src="106" />
+	<png name="tools_calc" src="107" />
+	<png name="tools_paint" src="108" />
+	<png name="tools_iexplore" src="109" />
+	<png name="tools_mstsc" src="110" />
+	<png name="tools_winword" src="111" />
+	
+	<!-- 首页的竖向导航条皮肤 -->
+	<imglst name="tableftsplitter" src="73"/>
+	<imghorzex name="tableft" src="74" mode="mask" left="4" subwidth="24"/>
+	
+	<!-- 设置窗口的按钮风格 -->
+	<button name="normalbtn" border="7D9EBC" bg="FBFCFD" bgup="FEFEFE" bgdown="C6E2FD" bguphover="FEFEFE" bgdownhover="DBEDFE" bguppush="C6E2FD" bgdownpush="FEFEFE"/>
+
+	<imglst name="tabmain" src="5" mode="mask" subwidth="71"/>
+  <png name="closebtn" src="101" subwidth="43" />
+  <png name="minbtn" src="102" subwidth="32" />
+	<png name="morebtn" src="103" subwidth="30" />
+  <png name="logomodule" src="3" subwidth="48"/>
+  <png name="logobtn" src="104" />
+  <png name="content_intro" src="105" />
+  <button name="normalbtn" border="7D9EBC" bg="FBFCFD" bgup="FEFEFE" bgdown="C6E2FD" bguphover="FEFEFE" bgdownhover="DBEDFE" bguppush="C6E2FD" bgdownpush="FEFEFE" />  
+</skins>

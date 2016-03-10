@@ -1,0 +1,70 @@
+﻿<layer width="390" height="300" resize="1">
+
+    <header class="msgboxhead" width="full" height="32" >
+		<dlg pos="0,0,-0,-0">
+        	<icon src="101" pos="9,9"/>
+			<text id="60004" class="dlgtitle" pos="30,10">测试对话框 2.1</text>
+			<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,1" />
+		</dlg>
+    </header>
+
+    <body class="mainbody" width="full" height="full">
+		<tabctrl
+			id="136" 
+			tabwidth="71" 
+			tabheight="71" 
+			tabskin="tabmain" 
+			iconskin="logomodule" 
+			tabspacing="5" 
+			tabpos="1" 
+			framepos="7" 
+			pos="0,4,-0,-1" 
+			icon-x="10" 
+			icon-y="1" 
+			text-x="0" 
+			text-y="25"
+		>
+			<tab title="功能介绍" width="full" height="full" crtext="000000">
+				<dlg pos="0,0,-0,-0">
+					<button id="60002" pos="20,20,80,80" class="normalbtn">重新体检</button>
+				</dlg>
+			</tab>
+
+			<tab title="流量分析" width="full" height="full" crtext="000000">
+
+			</tab>
+
+			<tab title="百宝箱"	  width="full" height="full" crtext="000000">
+        
+			</tab>
+
+			<tab title="附加功能" width="full" height="full" crtext="000000">
+				
+			</tab>
+
+			<tab title="附加功能" width="full" height="full" crtext="000000">
+				
+			</tab>
+
+			<tab title="附加功能" width="full" height="full" crtext="000000">
+				
+			</tab>
+
+			<tab title="附加功能" width="full" height="full" crtext="000000">
+				
+			</tab>
+
+			<tab title="附加功能" width="full" height="full" crtext="000000">
+				
+			</tab>
+
+			<tab title="联系我们" width="full" height="full" crtext="000000">
+				
+			</tab>
+		</tabctrl>
+	</body>
+
+    <footer class="msgboxfoot" width="full" height="3">
+    </footer>
+
+</layer>

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9DA932CE-EA04-49DD-84CF-35C9D7E2251D}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>Debug\</IntDir>
+    <OutDir>Debug\</OutDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>Release\</IntDir>
+    <OutDir>Release\</OutDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>UseBkWin.h</HeaderFileName>
+      <InterfaceIdentifierFileName>UseBkWin_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>UseBkWin_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/UseBkWin.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>UseBkWin.h</HeaderFileName>
+      <InterfaceIdentifierFileName>UseBkWin_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>UseBkWin_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/UseBkWin.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="HelpFunction.cpp" />
+    <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="NetworkDevice.cpp" />
+    <ClCompile Include="public\help\getregistry.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="public\help\IniEditor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="public\help\kscfilepath.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="public\help\kscsys.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="public\tinyxml\tinystr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="public\tinyxml\tinyxml.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="public\tinyxml\tinyxmlerror.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="public\tinyxml\tinyxmlparser.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UseBkWin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bkwinres.h" />
+    <ClInclude Include="HelpFuncion.h" />
+    <ClInclude Include="MainDlg.h" />
+    <ClInclude Include="NetCardListView.h" />
+    <ClInclude Include="CustomDrawButton.h" />
+    <ClInclude Include="NetworkDevice.h" />
+    <ClInclude Include="OwnDrawNetFlowButton.h" />
+    <ClInclude Include="public\bkwin\bkatldefine.h" />
+    <ClInclude Include="public\bkwin\bkcolor.h" />
+    <ClInclude Include="public\bkwin\bkdlgview.h" />
+    <ClInclude Include="public\bkwin\bkimage.h" />
+    <ClInclude Include="public\bkwin\bklistbox.h" />
+    <ClInclude Include="public\bkwin\bklistview.h" />
+    <ClInclude Include="public\bkwin\bkobject.h" />
+    <ClInclude Include="public\bkwin\bkskin.h" />
+    <ClInclude Include="public\bkwin\bktheme.h" />
+    <ClInclude Include="public\bkwin\bkwnd.h" />
+    <ClInclude Include="public\bkwin\bkwndcmnctrl.h" />
+    <ClInclude Include="public\bkwin\bkwnddlg.h" />
+    <ClInclude Include="public\bkwin\bkwnddlgfile.h" />
+    <ClInclude Include="public\bkwin\bkwndnotify.h" />
+    <ClInclude Include="public\bkwin\bkwndpanel.h" />
+    <ClInclude Include="public\bkwin\bkwndrichtxt.h" />
+    <ClInclude Include="public\bkwin\bkwndstyle.h" />
+    <ClInclude Include="public\bkwin\bkwndtabctrl.h" />
+    <ClInclude Include="public\bkwin\listboxbase.h" />
+    <ClInclude Include="public\help\base.h" />
+    <ClInclude Include="public\help\getregistry.h" />
+    <ClInclude Include="public\help\IniEditor.h" />
+    <ClInclude Include="public\help\kscfilepath.h" />
+    <ClInclude Include="public\help\ksclock.h" />
+    <ClInclude Include="public\help\kscsys.h" />
+    <ClInclude Include="public\help\wow64helper.h" />
+    <ClInclude Include="public\tinyxml\tinystr.h" />
+    <ClInclude Include="public\tinyxml\tinyxml.h" />
+    <ClInclude Include="public\wtlhelper\wh3statecheckimglst.h" />
+    <ClInclude Include="public\wtlhelper\whwindow.h" />
+    <ClInclude Include="public\wtl\atlapp.h" />
+    <ClInclude Include="public\wtl\atlcrack.h" />
+    <ClInclude Include="public\wtl\atlctrls.h" />
+    <ClInclude Include="public\wtl\atlctrlw.h" />
+    <ClInclude Include="public\wtl\atlctrlx.h" />
+    <ClInclude Include="public\wtl\atlddx.h" />
+    <ClInclude Include="public\wtl\atldlgs.h" />
+    <ClInclude Include="public\wtl\atlfind.h" />
+    <ClInclude Include="public\wtl\atlframe.h" />
+    <ClInclude Include="public\wtl\atlgdi.h" />
+    <ClInclude Include="public\wtl\atlmisc.h" />
+    <ClInclude Include="public\wtl\atlprint.h" />
+    <ClInclude Include="public\wtl\atlres.h" />
+    <ClInclude Include="public\wtl\atlresce.h" />
+    <ClInclude Include="public\wtl\atlscrl.h" />
+    <ClInclude Include="public\wtl\atlsplit.h" />
+    <ClInclude Include="public\wtl\atltheme.h" />
+    <ClInclude Include="public\wtl\atluser.h" />
+    <ClInclude Include="public\wtl\atlwince.h" />
+    <ClInclude Include="public\wtl\atlwinx.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="public\bkres\bkres.rc" />
+    <ResourceCompile Include="UseBkWin.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bkwinres.rc2" />
+    <None Include="res\bmp\main_bg_body.bmp" />
+    <None Include="res\bmp\msgbox_body.bmp" />
+    <None Include="res\bmp\msgbox_footer.bmp" />
+    <None Include="res\bmp\msgbox_header.bmp" />
+    <None Include="res\bmp\tab_main.bmp" />
+    <None Include="res\ico\beikesafe.ico" />
+    <None Include="res\png\btn_sys_close.png" />
+    <None Include="res\png\logo_module.png" />
+    <None Include="res\png\logo_title.png" />
+    <None Include="res\png\tools\delicious.png" />
+    <None Include="res\png\tools\digg.png" />
+    <None Include="res\png\tools\facebook.png" />
+    <None Include="res\png\tools\flickr.png" />
+    <None Include="res\png\tools\google.png" />
+    <None Include="res\png\tools\linkedin.png" />
+    <None Include="res\png\tools\rss.png" />
+    <None Include="res\png\tools\skype.png" />
+    <None Include="res\png\tools\stumbleupon.png" />
+    <None Include="res\png\tools\twitter.png" />
+    <None Include="res\png\tools\wordpress.png" />
+    <None Include="res\png\tools\yehoo.png" />
+    <None Include="res\xml\def_skin.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\xml\def_skin2.xml" />
+    <None Include="res\xml\def_string.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\xml\def_string_en.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\xml\def_style.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\xml\dlg_main.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\xml\dlg_main_body.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\xml\dlg_main_body_en.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\xml\dlg_main_en.xml" />
+    <None Include="res\xml\dlg_main_footer.xml" />
+    <None Include="res\xml\dlg_main_header.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\xml\dlg_msgbox.xml" />
+    <None Include="res\xml\dlg_msgbox2.xml" />
+    <None Include="res\xml\dlg_set.xml" />
+    <None Include="res\xml\list_process.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

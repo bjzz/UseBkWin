@@ -1,0 +1,13 @@
+<dlg pos="0,0,-0,-0">
+	<!-- 右上角的图标 -->
+	<img skin="logobtn" pos="0,1" />
+	<!-- 窗口标题 -->
+	<text class="dlgtitle" pos="40,10">%str7% %str8%</text>
+	 
+	<imgbtn id="60000" class="linkimage" skin="morebtn" tip="更多操作" pos="-107,0" />
+	
+	<!-- 最小化按钮 -->
+	<imgbtn id="60003" class="linkimage" skin="minbtn" tip="最小化程序" pos="-76,0" />
+	<!-- 关闭按钮 -->
+	<imgbtn id="60001" class="linkimage" skin="closebtn" tip="关闭程序" pos="-45,0" />
+</dlg>

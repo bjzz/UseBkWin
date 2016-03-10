@@ -1,0 +1,27 @@
+<style>
+  <class name="mainhead" skin="mainhead" />
+  <class name="mainbody" skin="mainbody" font="0000" crtext="FFFFFF" x-margin="7"/>
+  <class name="mainfoot" skin="mainfoot" font="0000" crtext="000000" crbg="FBFCFD" x-margin="7" y-margin="1"/>
+
+	<class name="intr_text" skin="intr_text" />
+	
+	<class name="tools_bg" skin="intr_text" />
+
+	<class name="panel" margin="1" />
+  <class name="maintext" textmode="20" crtext="FF00FF" font="0004" margin="3" />
+
+	<class name="text_class" font="0600" textmode="0010" crtext="000000" margin="10" crhover="000000" />
+  <class name="text_class_url" font="0600" cursor="hand" textmode="0010" crtext="000000" margin="10" crhover="000000" />
+
+	<class name="normalbtn" skin="normalbtn" font="0000" crtext="000000" textmode="25" cursor="hand" x-margin="5"/>
+
+	<class name="tools_font" font="0804" crtext="000000"/>
+	<class name="text_count" font="0300" crtext="000000"/>
+	
+	<class name="settingpage" crbg="FBFCFD" y-margin="10"/>
+  
+  <class name="dlgtitle" font="0004" crtext="FFFFFF" textmode="8030" />
+	<class name="linkimage" cursor="hand"/>
+	<class name="tabpage" margin="2" crbg="FBFCFD" />
+	<class name="normalbtn" skin="normalbtn" font="0000" crtext="000000" textmode="25" cursor="hand" x-margin="5" />
+</style>

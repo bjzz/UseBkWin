@@ -1,0 +1,78 @@
+#pragma once
+//////////////////////////////////////////////////////////////////////////
+// 所有PNG和BMP的编号规则：
+// BMP				10000-40000
+// 系统主界面			10000 - 10200
+// 首页				10200 - 10400
+// 网络环境			10400 - 10600
+// 故障诊断			10600 - 10800
+// 网络检测			10800 - 11000
+// 网络百宝箱			20000 - 20200
+// 常见问题			20200 - 20400
+// 意见反馈			20400 - 20600
+// PNG				40000-80000
+// 系统主界面			40000 - 40200
+// 首页				40200 - 40400
+// 网络环境			40400 - 40600
+// 故障诊断			40600 - 40800
+// 网络检测			40800 - 41000
+// 网络百宝箱			50000 - 50200
+// 常见问题			50200 - 50400
+// 意见反馈			50400 - 50600
+// 以上规范后续调整，现在工作量有些大
+//////////////////////////////////////////////////////////////////////////
+// XML
+DEFINE_XML(IDR_BK_SKIN_DEF,                 100, "res\\xml\\def_skin.xml")
+DEFINE_XML(IDR_BK_STYLE_DEF,                101, "res\\xml\\def_style.xml")
+DEFINE_XML(IDR_BK_STRING_DEF,               102, "res\\xml\\def_string.xml")
+DEFINE_XML(IDR_BK_STRING_EN,                109, "res\\xml\\def_string_en.xml")
+DEFINE_XML(IDR_BK_MAIN_DIALOG,              103, "res\\xml\\dlg_main.xml")
+DEFINE_XML(IDR_BK_SECOND_DIALOG,            104, "res\\xml\\dlg_set.xml")
+
+//main dialog file
+DEFINE_XML(IDR_BK_MAIN_DIANLOG_HEADER,		105, "res\\xml\\dlg_main_header.xml")
+DEFINE_XML(IDR_BK_MAIN_DIANLOG_FOOTER,		106, "res\\xml\\dlg_main_footer.xml")
+DEFINE_XML(IDR_BK_MAIN_DIANLOG_BODY,		107, "res\\xml\\dlg_main_body.xml")
+DEFINE_XML(IDR_BK_LIST_PROCESS,             108, "res\\xml\\list_process.xml")
+DEFINE_XML(IDR_BK_SKIN_2,	                110, "res\\xml\\def_skin2.xml")
+DEFINE_XML(IDR_BK_MAIN_DIALOG_EN,			111, "res\\xml\\dlg_main_en.xml")
+DEFINE_XML(IDR_BK_MAIN_DIALOG_BODY_EN,		112, "res\\xml\\dlg_main_body_en.xml")
+
+//////////////////////////////////////////////////////////////////////////
+// BITMAP
+DEFINE_BMP(IDB_MAIN_BG_BODY,                2,   "res\\bmp\\main_bg_body.bmp")
+DEFINE_BMP(IDB_TAB_MAIN,                    5,   "res\\bmp\\tab_main.bmp")
+DEFINE_BMP(IDB_MSG_HEADER,					70,  "res\\bmp\\msgbox_header.bmp")
+DEFINE_BMP(IDB_MSG_BODY,					71,  "res\\bmp\\msgbox_body.bmp")
+DEFINE_BMP(IDB_MSG_FOOTER,					72,	 "res\\bmp\\msgbox_footer.bmp")
+DEFINE_BMP(IDB_TAB_LEFT_SPLITTER,           73,  "res\\bmp\\tab_left_splitter.bmp")
+DEFINE_BMP(IDB_TAB_LEFT,                    74,  "res\\bmp\\tab_left.bmp")
+DEFINE_BMP(IDB_INTRO_TEXT,					75,  "res\\bmp\\intro_text.bmp")
+DEFINE_BMP(IDB_TOOLS_BG,					76,  "res\\bmp\\tools_bg.bmp")
+
+
+//////////////////////////////////////////////////////////////////////////
+// PNG
+DEFINE_PNG(IDP_LOGO_MODULE,                 3,   "res\\png\\logo_module.png")
+DEFINE_PNG(IDB_BTN_SYS_CLOSE,               101, "res\\png\\btn_sys_close.png")
+DEFINE_PNG(IDB_BTN_SYS_MIN,					102, "res\\png\\btn_sys_minimize.png")
+DEFINE_PNG(IDB_BTN_SYS_MORE,				103, "res\\png\\btn_sys_more.png")
+DEFINE_PNG(IDP_LOGO_TITLE,					104, "res\\png\\logo_title.png")
+DEFINE_PNG(IDP_CONTENT_INTRO,				105, "res\\png\\content_intro.png")
+
+DEFINE_PNG(IDP_TOOL_1,						106, "res\\png\\tools\\notepad-10.png")
+DEFINE_PNG(IDP_TOOL_2,                      107, "res\\png\\tools\\calculator-1.png")
+DEFINE_PNG(IDP_TOOL_3,                      108, "res\\png\\tools\\paint-4.png")
+DEFINE_PNG(IDP_TOOL_4,                      109, "res\\png\\tools\\ie8logo.png")
+DEFINE_PNG(IDP_TOOL_5,                      110, "res\\png\\tools\\vino-remote-desktop-vnc-etc.png")
+DEFINE_PNG(IDP_TOOL_6,                      111, "res\\png\\tools\\office-word.png")
+DEFINE_PNG(IDP_INTRTEXT,					112, "res\\png\\intr_text.png")
+//////////////////////////////////////////////////////////////////////////
+// ICON
+
+DEFINE_ICO(IDI_BEIKESAFE,                   100, "res\\ico\\beikesafe.ico")
+
+DEFINE_ICO(IDI_WIRED_NETWORK,				102, "res\\ico\\wired_network.ico")
+DEFINE_ICO(IDI_WIRELESS_NETWORK,			103, "res\\ico\\wireless_network.ico")
+DEFINE_ICO(IDI_PPPOE_NETWORK,				104, "res\\ico\\pppoe_network.ico")
+DEFINE_ICO(IDI_VIRTUAL_NETWORK,				105, "res\\ico\\virtual_network.ico")

@@ -1,0 +1,314 @@
+<!-- 软件...整个tab控件 -->
+<dlg pos="0,0,-0,-0">
+	<tabctrl
+			id="4000"
+			cursel="3"
+			tabwidth="71"
+			tabheight="71"
+			tabskin="tabmain"
+			iconskin="logomodule"
+			tabspacing="12"
+			tabpos="0"
+			framepos="6"
+			pos="0,4,-0,-1"
+			icon-x="10"
+			icon-y="1"
+			text-x="0"
+			text-y="25"
+		>
+		<!-- 软件...整个tab控件...功能介绍 -->
+		<tab title="Introduce" width="full" height="full" crtext="000000">
+			<!-- 软件...整个tab控件...功能介绍...左侧导航条 -->		
+			<tabctrl
+						id="4001"
+						cursel="0"
+						tabwidth="90"
+						tabalign="left"
+						tabheight="36"
+						tabskin="tableft"
+						splitterskin="tableftsplitter"
+						tabspacing="15"
+						tabpos="10"
+						framepos="10"
+						pos="5,10,-0,-0"
+						text-x="-10"
+					>
+				<tab title="流量统计" width="full" height="full" class="settingpage" valign="middle">
+					<!-- <dlg pos="0,0,-10,-0" class="intr_text" > -->
+					<dlg pos="0,0,-10,-0" class="intr_text" >
+						<text class="text_class" pos="|-50,5">Detial Introduce</text>
+
+						<!-- <hr pos="5,25,-0,25" style="solid" size="1" crbg="CCCCCC"/> -->
+						<!-- <text pos="5,30" class="text_class">%str14% </text> -->
+						<text pos="5,35" class="text_class">%str14%</text>
+
+					</dlg>
+				</tab>
+
+				<tab title="流量分析" width="full" height="full" class="settingpage" valign="middle">
+					<dlg pos="0,0,-10,-0" class="intr_text" >
+						<text class="text_class" pos="|-50,5">Detial Introduce</text>
+						<text pos="5,35" class="text_class">%str15%</text>
+					</dlg>
+				</tab>
+
+				<tab title="常用工具" width="full" height="full" class="settingpage" valign="middle">
+					<dlg pos="0,0,-10,-0" class="intr_text" >
+						<text class="text_class" pos="|-50,5">Detial Introduce</text>
+						<text pos="5,35" class="text_class">%str16%</text>
+					</dlg>
+				</tab>
+
+				<tab title="软件设置" width="full" height="full" class="settingpage" valign="middle">
+					<dlg pos="0,0,-10,-0" class="intr_text" >
+						<text class="text_class" pos="|-50,5">Detial Introduce</text>
+						<text pos="5,35" class="text_class">%str17%</text>
+					</dlg>
+				</tab>						
+					</tabctrl>
+		</tab>
+
+		<!-- 软件...整个tab控件...流量统计 -->
+		<tab title="Net Flow" width="full" height="full" crtext="000000">
+			<!-- 软件...整个tab控件...流量统计...左侧导航条 -->
+			<tabctrl
+						id="4002"
+						cursel="0"
+						tabwidth="90"
+						tabalign="left"
+						tabheight="36"
+						tabskin="tableft"
+						splitterskin="tableftsplitter"
+						tabspacing="15"
+						tabpos="10"
+						framepos="15"
+						pos="5,10,-0,-0"
+						text-x="-10"
+					>
+						<tab title="Interface" width="full" height="full" class="settingpage" valign="middle">
+							<dlg pos="0,0,-10,-0" >
+								<realwnd id="2001" pos="0,0,-0,-0" />
+							</dlg>
+						</tab>
+									
+						<tab title="TCP Conn" width="full" height="full" class="settingpage" valign="middle">
+							<dlg pos="0,0,-10,-0" >
+								<realwnd id="2003" pos="0,0,-0,-40" />
+								<richtext id="2011" pos="5,260,150,-0" >
+									<c  color="FB9D00">0</c>
+								</richtext>
+								<text class="text_count" pos="30,240,150,-0">%str28%</text>
+								<button id="2007" class="normalbtn" pos="-130,240,-20,-0">%str29%</button>
+							</dlg>
+						</tab>
+						
+						<tab title="UDP Conn" width="full" height="full" class="settingpage" valign="middle">
+							<dlg pos="0,0,-10,-0" >
+								<realwnd id="2004" pos="0,0,-0,-40" />
+								<richtext id="2012" pos="5,260,150,-0" >
+									<c  color="FB9D00">0</c>
+								</richtext>
+								<text class="text_count" pos="30,240,150,-0">%str30%</text>
+								<button id="2008" class="normalbtn" pos="-130,240,-20,-0">%str31%</button>
+							</dlg>
+						</tab>
+				
+						<tab title="Route" width="full" height="full" class="settingpage" valign="middle">
+							<dlg pos="0,0,-10,-0" >
+								<realwnd id="2005" pos="0,0,-0,-40" />
+								<richtext id="2013" pos="5,260,150,-0" >
+									<c  color="FB9D00">0</c>
+								</richtext>
+								<text class="text_count" pos="30,240,150,-0">%str32%</text>
+								<button id="2009" class="normalbtn" pos="-130,240,-20,-0">%str33%</button>
+							</dlg>
+						</tab>
+
+						<tab title="Process" width="full" height="full" class="settingpage" valign="middle">
+							<dlg pos="0,0,-10,-0" >
+								<!-- m_ProcessList -->
+								<realwnd id="2002" pos="0,0,-0,-40" />
+								<!-- 进程个数 刷新按钮 -->
+								<richtext id="2010" pos="5,260,150,-0" >
+									<c  color="FB9D00">0</c>
+								</richtext>
+								<text class="text_count" pos="30,240,150,-0">%str34%</text>
+								<button id="2006" class="normalbtn" pos="-130,240,-20,-0">%str35%</button>
+							</dlg>
+						</tab>
+					</tabctrl>
+		</tab>
+
+		<tab title="Net Flow"	  width="full" height="full" crtext="000000">
+			<!-- 流量分析主页 里面包含一个tab控件 -->
+			<dlg pos="0,0,-10,-0" >
+				<tabctrl
+						id="4004"
+						cursel="0"
+						tabwidth="90"
+						tabalign="left"
+						tabheight="36"
+						tabskin="tableft"
+						splitterskin="tableftsplitter"
+						tabspacing="15"
+						tabpos="10"
+						framepos="15"
+						pos="5,10,-0,-0"
+						text-x="-10"
+					>
+					<tab title="Speed" width="full" height="full" class="settingpage" valign="middle">
+						<!-- 流量分析 网速分析 -->
+						<dlg pos="0,0,-10,-10" >
+							<realwnd id="2023" pos="0,0,-0,-20" />
+							<dlg pos="80,255,90,265" crbg="0000FF"/>
+							<text pos="95,255">%str57%</text>
+							<dlg pos="180,255,190,265" crbg="FFFF00"/>
+							<text pos="195,255">%str58%</text>
+						</dlg>
+					</tab>
+
+					<tab title="Net Flow" width="full" height="full" class="settingpage" valign="middle">
+						<!-- 流量分析 上传下载总量 -->
+						<dlg pos="0,0,-10,-10" >
+							<realwnd id="2025" pos="0,0,-0,-20" />
+							<dlg pos="80,255,90,265" crbg="0000FF"/>
+							<text pos="95,255">%str59%</text>
+							<dlg pos="180,255,190,265" crbg="FFFF00"/>
+							<text pos="195,255">%str60%</text>
+						</dlg>
+					</tab>
+				</tabctrl>
+				<!-- <realwnd id="2023" pos="20,10,-20,-20" /> -->
+			</dlg>
+		</tab>
+
+		<tab title="Tools" width="full" height="full" >
+			<!-- windows自带工具启动方式 -->
+			<!-- <dlg pos="5,11,-5,-5" crbg="000000" > -->
+			<dlg pos="10,15,-10,-9" class="tools_bg" >
+				<dlg pos="60,30,-0,-0">
+					<text class="tools_font" pos="10,95" tip="Notepad" >%str36%</text>
+					<img skin="tools_notepad" pos="0,0,50,50" href="notepad" tip="Open Notepad" />
+				</dlg>
+				<dlg pos="185,30,-0,-0" >
+					<text class="tools_font" pos="5,95" tip="Calcluator">%str37%</text>
+					<img skin="tools_calc" pos="0,0,-0,-0" href="calc" tip="Open Calclutor" />
+				</dlg>
+				<dlg pos="315,30,-0,-0" >
+					<text class="tools_font" pos="15,95" tip="ms paint" >%str38%</text>
+					<img skin="tools_paint" pos="0,0,-0,-0" href="mspaint" tip="Open MS paint" />
+				</dlg>
+				<dlg pos="60,150,-0,-0">
+					<text class="tools_font" pos="5,95" tip="iexplorer" >%str39%</text>
+					<img skin="tools_iexplore" pos="0,0,-0,-0" href="http://mktime.org" tip="Open iexplorer" />
+				</dlg>
+				<dlg pos="185,150,-0,-0">
+					<text class="tools_font" pos="0,95" tip="Remote Desktop" >%str40%</text>
+					<img skin="tools_mstsc" pos="0,0,-0,-0" href="mstsc" tip="Open Remote Desktop" />
+				</dlg>
+				<dlg pos="315,150,-0,-0">
+					<text class="tools_font" pos="15,95" tip="Offic Word" >%str41%</text>
+					<img skin="tools_winword" pos="0,0,-0,-0" href="winword" tip="Open MS Word" />
+				</dlg>
+			</dlg>
+				
+			
+		</tab>
+		<tab title="Options" width="full" height="full" crtext="000000">
+			<!-- 软件设置---左侧导航 -->
+			<dlg pos="10,10,-10,-50" >
+				<tabctrl
+						id="4003"
+						cursel="0"
+						tabwidth="90"
+						tabalign="left"
+						tabheight="36"
+						tabskin="tableft"
+						splitterskin="tableftsplitter"
+						tabspacing="15"
+						tabpos="10"
+						framepos="15"
+						pos="5,10,-0,-0"
+						text-x="-10"
+					>
+					<tab title="General" width="full" height="full" class="settingpage" valign="middle">
+						<!-- 启动设置 窗口设置 -->
+						<dlg pos="0,0,-10,-0" >
+							<text pos="10,0">%str42%</text>
+							<hr pos="70,5,-0,5" style="solid" size="1" crbg="CCCCCC"/>
+							<check id="2014" pos="20,20">%str43%</check>
+							<check id="2017" pos="20,45">%str44%</check>
+							
+							<text pos="10,80">%str45%</text>
+							<hr pos="70,85,-0,85" style="solid" size="1" crbg="CCCCCC"/>
+							<check id="2018" pos="20,100">%str46%</check>
+
+							<text pos="10,140">%str47%</text>
+							<hr pos="70,145,-0,145" style="solid" size="1" crbg="CCCCCC"/>
+							<check id="2024" pos="20,160">%str48%</check>
+						</dlg>
+					</tab>
+
+					<tab title="Draw Setup" width="full" height="full" class="settingpage" valign="middle">
+						<!-- 启动设置 窗口设置 -->
+						<dlg pos="0,0,-10,-0" >
+							<text pos="10,0">%str61%</text>
+							<hr pos="70,5,-0,5" style="solid" size="1" crbg="CCCCCC"/>
+							<button id="2026" class="normalbtn" pos="10,25,100,55">%str62%</button>
+							<button id="2027" class="normalbtn" pos="120,25,210,55">%str63%</button>
+							<button id="2028" class="normalbtn" pos="230,25,320,55">%str64%</button>
+							<button id="2032" class="normalbtn" pos="10,65,100,95">%str69%</button>
+
+							<text pos="10,120">%str65%</text>
+							<hr pos="70,125,-0,125" style="solid" size="1" crbg="CCCCCC"/>
+							<button id="2029" class="normalbtn" pos="10,140,100,170">%str66%</button>
+							<button id="2030" class="normalbtn" pos="120,140,210,170">%str67%</button>
+							<button id="2031" class="normalbtn" pos="230,140,320,170">%str68%</button>
+							<button id="2033" class="normalbtn" pos="10,180,100,210">%str70%</button>
+
+						</dlg>
+					</tab>
+
+					<tab title="Advance" width="full" height="full" class="settingpage" valign="middle">
+						<!-- 升级设置 语言设置 -->
+						<dlg pos="d0,0,-10,-0" >
+							<dlg pos="0,0,-10,-0" >
+								<text pos="10,0">%str49%</text>
+								<hr pos="70,5,-0,5" style="solid" size="1" crbg="CCCCCC"/>
+								<radio id="2019" group="update" pos="20,20">%str50%</radio>
+								<radio id="2020" group="update" pos="20,45">%str51%</radio>
+
+								<text pos="10,80">%str52%</text>
+								<hr pos="70,85,-0,85" style="solid" size="1" crbg="CCCCCC"/>
+								<radio id="2021" group="language" pos="20,100">%str53%</radio>
+								<radio id="2022" group="language" pos="20,125">%str54%</radio>
+							</dlg>
+						</dlg>
+					</tab>
+				</tabctrl>
+			</dlg>
+			<dlg pos="10,-45,-10,-5" >
+				<hr pos="0,0,-0,0" style="solid" size="1" crbg="CCCCCC"/>
+				<button id="2015" class="normalbtn" pos="250,10,340,40">%str55%</button>
+				<button id="2016" class="normalbtn" pos="350,10,440,40">%str56%</button>
+			</dlg>
+			
+		</tab>
+
+		<tab title="Contact" width="full" height="full" crtext="000000">
+			<!-- 联系方式 -->
+			<dlg pos="8,14,-10,-10" class="tools_bg">
+				<dlg pos="40,35,-0,-0">
+					<text pos="0,0" class="text_class">%str18%</text>
+					<text pos="0,25" class="text_class">%str20%</text>
+					<text pos="0,50" class="text_class">%str21%</text>
+					<text pos="0,75" class="text_class">%str27%</text>
+					<text pos="0,100" class="text_class_url" href="http://mktime.org">%str26%</text>
+					<text pos="0,125" class="text_class">%str22%</text>
+					<text pos="0,150" class="text_class_url" href="http://mktime.org" >%str24%</text>
+					<text pos="0,175" class="text_class" >%str25%</text>
+				</dlg>
+			</dlg>
+		</tab>
+	</tabctrl>
+</dlg>
